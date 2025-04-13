@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendar</title>
-    <link rel="stylesheet" href="./styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendar</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+
 </head>
 <body>
-   <div class="decors">
+  <div class="decors">
     <div class="decor decor_1"></div>
     <div class="decor decor_2"></div>
-   </div>
-   <div class="calendar">
-    <div class="calendar__header">
-<div class="calendar__month" id="month-year"></div>
-    <div class="calendar__btns">
-        <button type="button" class="calendar_btn" id="prev-btn">
-            <img src="./img/arrow-left-5-svgrepo-com.svg" alt="icon" >
-        </button>
-        <button type="button" class="calendar_btn" id="next-btn">
-            <img src="./img/arrow-right-333-svgrepo-com.svg" alt="icon" >
-        </button>
-    </div>
-</div>
-    <div class="calendar__body">
-<div class="calendar__day-names">
+  </div>
 
-</div>
-<div class="calendar__days" id="calendar__days"></div>
+  <div class="calendar">
+    <div class="calendar__header">
+      <div class="calendar__month" id="month-year"></div>
+      <div class="calendar__btns">
+        <button type="button" class="calendar__btn" id="prev-btn">
+          <img src="./img/arrow-left-5-svgrepo-com.svg" alt="icon" />
+        </button>
+        <button type="button" class="calendar__btn" id="next-btn">
+          <img src="./img/arrow-right-333-svgrepo-com.svg" alt="icon" />
+        </button>
+      </div>
     </div>
-   </div>
-    <script src="./script.js"></script>
+
+    <div class="calendar__body">
+      <div class="calendar__day-names"></div>
+      <div class="calendar__days" id="calendar-days"></div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
 </body>
 </html>
